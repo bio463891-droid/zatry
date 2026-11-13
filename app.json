@@ -1,0 +1,51 @@
+{
+  "expo": {
+    "name": "ذِكرى | ZIKRA",
+    "slug": "zikra-native",
+    "scheme": "zikra",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.zikra.app",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logos/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "يحتاج ذِكرى إلى الوصول إلى صورك لإضافة الذكريات."
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "icon": "./assets/logos/app-icon.png",
+    "splash": {
+      "image": "./assets/logos/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "web": {
+      "favicon": "./assets/logos/favicon.png"
+    },
+    "extra": {
+      "logoPaths": {
+        "appIcon": "./assets/logos/app-icon.png",
+        "androidAdaptiveIcon": "./assets/logos/adaptive-icon.png",
+        "splashScreen": "./assets/logos/splash.png",
+        "webFavicon": "./assets/logos/favicon.png"
+      }
+    }
+  }
+}
